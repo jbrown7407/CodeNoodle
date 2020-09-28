@@ -12,11 +12,18 @@ body {
     background-color: rgb(109, 109, 109);
     border: 1px solid black;
     color: red;
-display: inline-block
-width: 95%;
+
+width: 98%;
 padding: 1%;
-    
+    max-height: 50%;
   
+}
+.notify {
+    background-color:black;
+    border: 2px solid grey;
+    color: white;
+    padding: 2px;
+    
 }
 nav {
     display: inline-block;
@@ -54,10 +61,10 @@ nav {
 }
 #output{
     background-color: white;
-    border: 5px solid grey;
- 
+    border: 1px solid black;
+   
     height: 1000px;
-    width: 95%;
+    width: 96%;
     padding: 2%;
 }
 
