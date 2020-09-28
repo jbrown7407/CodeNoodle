@@ -1,0 +1,73 @@
+body {
+ background-color: white;
+ border: 5px solid black;
+}
+.banner {
+    background-color:black;
+    border: 3px solid grey;
+    color: white;
+    padding: 3px;
+}
+.editor {
+    background-color: rgb(109, 109, 109);
+    border: 1px solid black;
+    color: red;
+display: inline-block
+width: 95%;
+padding: 1%;
+    
+  
+}
+nav {
+    display: inline-block;
+    border: 1px solid black;
+    background-color: lightgrey;
+    color: black;
+    margin-left: 50%;
+}
+
+
+ .editor #css{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    height: 100%;
+    width: 20%;
+    padding: 2%;
+}
+ .editor #js{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    height: 100%;
+    width: 20%;
+    padding: 2%;
+}
+.editor #html {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    height: 100%;
+    width: 20%;
+    padding: 2%;
+ 
+}
+#output{
+    background-color: white;
+    border: 5px solid grey;
+ 
+    height: 1000px;
+    width: 95%;
+    padding: 2%;
+}
+
+.iframe {
+ border: 2px solid black;
+ height: 500px;
+ width: 90%;
+}
+.textarea {
+
+ 
+}
+
