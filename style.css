@@ -23,17 +23,30 @@ padding: 1%;
     margin-left: 45%;
 
 }
-.point{
+
+
+.point2{
     color: black;
     background-color: white;
-    float: right;
+
 }
-.point:hover{
+.point2:hover{
     color: white;
     background-color:grey;
 }
 
 
+.point{
+    color: black;
+    background-color: white;
+    float: right;
+
+}
+.point:hover{
+    color: white;
+    background-color:grey;
+    float: right;
+}
 .notify {
     background-color:black;
     border: 2px solid grey;
