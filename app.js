@@ -9,4 +9,4 @@ function run() {
 }
 document.querySelector(".editor #html").addEventListener("keyup",run); //update html in editor each press by calling run()
 document.querySelector(".editor #css").addEventListener("keyup",run);  //update css in editor each press by calling run()
-document.querySelector(".editor #js").addEventListener("keyup",run);   //update js in editor each press by calling run()
+document.querySelector(".editor #js").addEventListener("keyup",run);   //update js in editor each press by calling run()/
