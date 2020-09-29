@@ -18,6 +18,11 @@ body {
     max-height: 50%;
   
 }
+#myname
+{
+    float: right;
+    text-align: right;
+}
 .tut {
     text-align: center;
     margin-left: 45%;
