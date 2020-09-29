@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>BrownCodes</title>
+    <title>Coding Sanxbox</title>
     <link rel="stylesheet" href="style.css" />
  
    
     </head>
     <body>
-        <div class="banner"><b>Code Playground</b> by Jeff Brown
-<nav> 
+        <div class="banner"><b>Coding Sandbox</b> by Jeff Brown   </div>  
+<nav>    <button id="myHTML" type="button" onClick="copyThisHTML()" style=font-size:15px;> Copy HTML </button> 
+         <button id="myCSS" type="button" onClick="copyThisCSS()" style=font-size:15px;> Copy CSS </button> 
+         <button id="myJS" type="button" onClick="copyThisJS()" style=font-size:15px;> Copy JS </button> 
 </nav>
+   
 
-
-        </div>
         <div class="editor">
             <textarea id="html">HTML Here...</textarea>
+            
             <textarea id="css">CSS Here...</textarea>
-            <textarea id="js">JS Here...</textarea>
-
+            <textarea id="js">JS Here...</textarea> 
         </div>
-  <div class="notify"><b>Live Preview:</b>                <button class="point" type="button" onClick="onClick()" style=font-size 70 px;> Run Javascript </button> </div> 
-        <iframe id="output">Live Preview will appear here.</iframe>
+        
+  <div class="notify"><b>Live Preview:</b>    <span class="tut"> <button class="point" type="button" onClick="onClick()" > Run Javascript </button>  </em></span>         </div> 
+        <iframe id="output">Live Preview will appear here.</iframe> 
         <script src="app.js">
           
         </script>

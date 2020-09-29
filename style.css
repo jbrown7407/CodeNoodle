@@ -18,6 +18,11 @@ padding: 1%;
     max-height: 50%;
   
 }
+.tut {
+    text-align: center;
+    margin-left: 45%;
+
+}
 .point{
     color: black;
     background-color: white;
@@ -39,9 +44,10 @@ padding: 1%;
 nav {
     display: inline-block;
     border: 1px solid black;
-    background-color: lightgrey;
+    background-color: darkgrey;
     color: black;
-    margin-left: 50%;
+    width: 100%;
+
 }
 
 
