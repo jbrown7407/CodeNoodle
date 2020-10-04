@@ -100,6 +100,8 @@ let cl = (value) => {console.log(value)}
 
   const $phase1 = document.getElementsByClassName("phase1")
   $("#btn2").hide()
+
+
  
    $("#btn2").click(function restore(){ //RETURN TO EDITOR
  
