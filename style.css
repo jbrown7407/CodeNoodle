@@ -1,23 +1,105 @@
+#jeffname {
+    color: black;
+    float: right;
+}
+
+#btn2{
+    color: blue;
+}
+
+.dropper{
+    width: 100%;
+    color: black;
+    background-color: white;
+}
+.dropper:hover{
+    width: 100%;
+    color:white;
+    background-color:rgb(92, 92, 92);
+}
+
+
 body {
  background-color: white;
  border: 5px solid black;
+
 }
+head {
+    background-image: linear-gradient(to right, black, white);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 3px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F9F9F9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 0px;
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    width: 100%;gt
+
+  }
+  .dropdown:hover .dropdown-content p:hover {
+    display: block;
+    color: black;
+    background-color: lightgray;
+    padding: 5px;
+    width: 100%;
+    border-radius: 2.5px;
+  }
+
 .banner {
     background-color:black;
     border: 3px solid grey;
     color: white;
     padding: 3px;
+    background-image: linear-gradient(to right, black, white);
 }
 .editor {
-    background-color: rgb(109, 109, 109);
+    background-color: rgb(158, 157, 157);
     border: 1px solid black;
     color: red;
     font-size: 15px;
-    width: 98%;
-    padding: 1%;
-    max-height: 50%;
-  
+    width: 96%;
+    padding: 2%;
+    margin-top: -5px;
+
 }
+
+#filename{
+    float: right;
+    color: black;
+    margin-top: 15px;
+}
+.fileIcon{
+color:black;
+padding: 10px, 10px, 10px, 10px; 
+margin: 0px;
+margin: 10px;
+}
+
+body{
+    min-width: 320px;
+}
+
+.fileIcon:hover{
+    color: black;
+    padding: 10px, 0px, 10px, 0px; 
+    margin: 20px;
+    font-style: bold;
+  
+    
+    
+    }
 #myname
 {
     float: right;
@@ -28,11 +110,18 @@ body {
     margin-left: 45%;
 
 }
-
+#myname {
+    float: bottom;
+    color: white;
+    margin-top: 14px;
+}
 
 .point2{
-    color: black;
-    background-color: white;
+   margin-left: 5px; 
+   border: 2px solid black;
+   float: right;
+   background-color:rgb(196, 196, 196);
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
 }
 .point2:hover{
@@ -61,10 +150,12 @@ body {
 }
 nav {
     display: inline-block;
-    border: 1px solid black;
-    background-color: darkgrey;
+
+    background-color:lightgrey;
     color: black;
     width: 100%;
+margin-top: 0
+
 
 }
 
@@ -108,8 +199,16 @@ nav {
  height: 500px;
  width: 90%;
 }
-.textarea {
 
- 
+
+#btnSave{
+    width: 100%;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+#jeffname{
+    color: black;
+    margin-top: 15px;
 }
 
