@@ -1,3 +1,104 @@
+#dropdown2{
+    float:right;
+  
+}
+
+#output{
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: break-word;
+    word-wrap: break-word;
+    display: break-word;
+    width: 95%
+
+}
+
+.hotText{
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: break-word;
+    word-wrap: break-word;
+    display: break-word;
+   
+
+}
+
+.phase2 {
+    flex: wrap; 
+    word-wrap: break-word;
+    overflow: break-word;
+    display: break-word;
+
+}
+  .iframe-container {
+    padding-top: 56.25%; /* 16:9*/
+    position: relative;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    flex: wrap; 
+    word-wrap: break-word;
+    overflow: break-word;
+    display: break-word;
+  }
+  
+  .iframe-container iframe {
+     border: 0;
+    
+     left: 0;
+     position: absolute;
+     top: 0;
+
+      white-space: -moz-pre-wrap;
+     white-space: -pre-wrap;
+     white-space: -o-pre-wrap; 
+     white-space: pre-wrap;
+     word-wrap: break-word;
+    display: flex;
+    word-wrap: break-word;
+    display: break-word;
+    border: 1px solid black;
+  }
+
+  iframe text{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+   display: flex;
+   word-wrap: break-word;
+   display: break-word;
+   white-space: -moz-pre-wrap;
+   white-space: -pre-wrap;
+   white-space: -o-pre-wrap; 
+  }
+
+  body.text{
+        border: 0;
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+
+      white-space: -moz-pre-wrap;
+     white-space: -pre-wrap;
+     white-space: -o-pre-wrap; 
+     white-space: pre-wrap;
+     word-wrap: break-word;
+    display: flex;
+    word-wrap: break-word;
+    display: break-word;
+  }
+
+
+
+
+
+
 
 
 #jeffname {
@@ -21,11 +122,7 @@
 }
 
 
-body {
- background-color: white;
- border: 5px solid black;
 
-}
 head {
     background-image: linear-gradient(to right, black, white);
 }
@@ -89,9 +186,7 @@ margin: 0px;
 margin: 10px;
 }
 
-body{
-    min-width: 320px;
-}
+
 .menubar{
     color: black;
    
@@ -142,7 +237,7 @@ body{
    margin-left: 5px; 
    border: 2px solid black;
    float: right;
-   background-color:rgb(196, 196, 196);
+   background-color:rgb(212, 212, 212);
 
 
 }
@@ -177,11 +272,10 @@ nav {
     background-color:lightgrey;
     color: black;
     width: 100%;
-margin-top: 0
+    margin-top: 0
 
 
 }
-
 
  .editor #css{
     background-color: black;
@@ -208,21 +302,6 @@ margin-top: 0
     padding: 2%;
  
 }
-#output{
-    background-color: white;
-    border: 1px solid black;
-   
-    height: 1000px;
-    width: 96%;
-    padding: 2%;
-}
-
-.iframe {
- border: 2px solid black;
- height: 500px;
- width: 90%;
-}
-
 
 #btnSave{
     width: 100%;
@@ -234,4 +313,21 @@ margin-top: 0
     color: black;
     margin-top: 15px;
 }
+
+.square {
+    height: 50px;
+    flex-basis: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:red;
+    text-shadow: 1px 1px 1px black;
+    border: 1px solid gray;
+  }
+  #color-palette {
+    width: 25%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
