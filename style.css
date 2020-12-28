@@ -2,7 +2,9 @@
     float:right;
   
 }
-
+body {
+    background-color:rgb(181, 219, 255);
+}
 #output{
     white-space: -moz-pre-wrap;
     white-space: -pre-wrap;
@@ -15,7 +17,9 @@
     width: 95%
 
 }
-
+iframe {
+    background-color: white;
+}
 .hotText{
     white-space: -moz-pre-wrap;
     white-space: -pre-wrap;
@@ -80,7 +84,7 @@
   body.text{
         border: 0;
      height: 100%;
-     left: 0;
+     left: 0;rgb(135, 126, 255)
      position: absolute;
      top: 0;
 
@@ -269,8 +273,8 @@ margin: 10px;
     float: right;
 }
 .notify {
-    background-color:black;
-    border: 2px solid grey;
+    background-color:rgb(0, 0, 0);
+    border: 2px solid black;
     color: white;
     padding: 2px;
     
